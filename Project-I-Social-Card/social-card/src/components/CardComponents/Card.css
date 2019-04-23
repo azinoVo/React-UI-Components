@@ -5,12 +5,7 @@
     display:flex;
     flex-direction:column;
     margin-left:5%;
-};
-
-.bottom-link a {
     text-decoration:none;
-    color:black;
-    font-style:none;
 };
 
 /* The colors for JS link is somehow automatic? */
