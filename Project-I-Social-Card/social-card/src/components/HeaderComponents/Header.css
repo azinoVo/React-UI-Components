@@ -1,1 +1,24 @@
 /* All styles for your header Components live here */
+* {
+    box-sizing: border-box;
+}
+
+.header-container {
+    display:flex;
+}
+
+.header-container .header-img {
+    width:5%;
+    margin-right:1%;
+}
+
+.header-container .header-img img {
+    height:50px;
+    width:100%;
+    margin-top:14px;
+}
+
+.header-container .header-right {
+    width:85%;
+}
+

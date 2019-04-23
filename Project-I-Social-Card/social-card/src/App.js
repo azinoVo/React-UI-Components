@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import HeaderContainer from './components/HeaderComponents/HeaderContainer';
+import CardContainer from './components/CardComponents/CardContainer';
 //Compile components from HeaderContainer and Card Container after those mid-components have their 
 //smaller component parts
 
@@ -21,6 +22,7 @@ const App = () => {
         </strong>
       </p>
       <HeaderContainer />
+      <CardContainer />
     </div>
   );
 };

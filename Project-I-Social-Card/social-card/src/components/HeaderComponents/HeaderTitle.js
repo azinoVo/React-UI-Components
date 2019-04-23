@@ -20,7 +20,7 @@ const HeaderTitle = function() {
     return (
         <div className='header-title'>
             <p>
-                <strong>Lambda School:</strong> @LambdaSchool * 26 jan
+                <strong>Lambda School</strong> @LambdaSchool * 26 jan
             </p>
         </div>
     );
