@@ -7,7 +7,7 @@
 //   for styling
 
 // ```js
-// <button className={props.buttonStyle}>{props.text}</button>
+// <button className={props.buttonStyle}></button>
 // ```
 
 // - Create an `<ActionButton />` component that will be used for the `zero` character and the `clear` button.
@@ -16,10 +16,10 @@
 import React from 'react';
 import './Button.css';
 
-const NumberButton = () => {
+const NumberButton = props => {
     return (
         //number buttons
-        <div className='number-button'>
+        /* <div className='number-button'>
             <button className='clear'><p>Clear</p></button>
             <div className='non-zero'>
                 <button className='non-zero-box'><p>1</p></button>
@@ -31,18 +31,12 @@ const NumberButton = () => {
                 <button className='non-zero-box'><p>7</p></button>
                 <button className='non-zero-box'><p>8</p></button>
                 <button className='non-zero-box'><p>9</p></button>
-                {/* <div className='non-zero-box'><p>{props.text}</p></div>
-                <div className='non-zero-box'><p>{props.text}</p></div>
-                <div className='non-zero-box'><p>{props.text}</p></div>
-                <div className='non-zero-box'><p>{props.text}</p></div>
-                <div className='non-zero-box'><p>{props.text}</p></div>
-                <div className='non-zero-box'><p>{props.text}</p></div>
-                <div className='non-zero-box'><p>{props.text}</p></div>
-                <div className='non-zero-box'><p>{props.text}</p></div> */}
             </div>
             <button className='zero'><p>0</p></button>
-        </div>
+        </div> */
 
+        //Adding Props
+        <button className={props.buttonType}><p>{props.buttonText}</p></button>
     );
 };
 
