@@ -8,7 +8,7 @@ const ActionButton = () => {
         //actionbutton buttons
         <div className='action-button'>
             <button className='operator'><p>÷</p></button>
-            <button className='operator'><p>X</p></button>
+            <button className='operator'><p>x</p></button>
             <button className='operator'><p>-</p></button>
             <button className='operator'><p>+</p></button>
             <button className='operator'><p>=</p></button>
