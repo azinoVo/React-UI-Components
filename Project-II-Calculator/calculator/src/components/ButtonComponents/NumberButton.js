@@ -20,19 +20,27 @@ const NumberButton = () => {
     return (
         //number buttons
         <div className='number-button'>
-            <div className='clear'></div>
+            <button className='clear'><p>Clear</p></button>
             <div className='non-zero'>
-                <div className='non-zero-box'></div>
-                <div className='non-zero-box'></div>
-                <div className='non-zero-box'></div>
-                <div className='non-zero-box'></div>
-                <div className='non-zero-box'></div>
-                <div className='non-zero-box'></div>
-                <div className='non-zero-box'></div>
-                <div className='non-zero-box'></div>
-                <div className='non-zero-box'></div>
+                <button className='non-zero-box'><p>1</p></button>
+                <button className='non-zero-box'><p>2</p></button>
+                <button className='non-zero-box'><p>3</p></button>
+                <button className='non-zero-box'><p>4</p></button>
+                <button className='non-zero-box'><p>5</p></button>
+                <button className='non-zero-box'><p>6</p></button>
+                <button className='non-zero-box'><p>7</p></button>
+                <button className='non-zero-box'><p>8</p></button>
+                <button className='non-zero-box'><p>9</p></button>
+                {/* <div className='non-zero-box'><p>{props.text}</p></div>
+                <div className='non-zero-box'><p>{props.text}</p></div>
+                <div className='non-zero-box'><p>{props.text}</p></div>
+                <div className='non-zero-box'><p>{props.text}</p></div>
+                <div className='non-zero-box'><p>{props.text}</p></div>
+                <div className='non-zero-box'><p>{props.text}</p></div>
+                <div className='non-zero-box'><p>{props.text}</p></div>
+                <div className='non-zero-box'><p>{props.text}</p></div> */}
             </div>
-            <div className='zero'></div>
+            <button className='zero'><p>0</p></button>
         </div>
 
     );

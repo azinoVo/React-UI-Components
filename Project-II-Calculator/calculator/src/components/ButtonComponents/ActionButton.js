@@ -7,11 +7,11 @@ const ActionButton = () => {
     return (
         //actionbutton buttons
         <div className='action-button'>
-            <div className='operator'></div>
-            <div className='operator'></div>
-            <div className='operator'></div>
-            <div className='operator'></div>
-            <div className='operator'></div>
+            <button className='operator'><p>÷</p></button>
+            <button className='operator'><p>X</p></button>
+            <button className='operator'><p>-</p></button>
+            <button className='operator'><p>+</p></button>
+            <button className='operator'><p>=</p></button>
         </div>
 
     );
