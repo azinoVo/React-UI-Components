@@ -16,7 +16,7 @@ const App = () => {
           <div className='bottom-display'>
             {/* <NumberButton /> */}
             <div className='number-button'>
-              <NumberButton buttonType='clear' buttonText='Clear' />
+                <NumberButton buttonType='clear' buttonText='Clear' />
               <div className='non-zero'>
                 <NumberButton buttonType='non-zero-box' buttonText='7' />
                 <NumberButton buttonType='non-zero-box' buttonText='8' />
@@ -30,11 +30,10 @@ const App = () => {
                 <NumberButton buttonType='non-zero-box' buttonText='10' />
                 <NumberButton buttonType='non-zero-box' buttonText='11' />
                 <NumberButton buttonType='non-zero-box' buttonText='12' />
-
               </div>
               <NumberButton buttonType='zero' buttonText='0' />
-            </div>
-
+              </div>
+             
             <div className='action-button'>
               <ActionButton buttonOperator='operator' buttonSign='÷' />
               <ActionButton buttonOperator='operator' buttonSign='x' />
@@ -44,9 +43,9 @@ const App = () => {
               <ActionButton buttonOperator='operator' buttonSign='^' />
             </div>
             {/* <ActionButton /> */}
-          </div>
           
     </div>
+  </div>
   );
 };
 
