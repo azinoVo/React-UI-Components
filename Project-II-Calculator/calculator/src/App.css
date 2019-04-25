@@ -1,0 +1,30 @@
+* p {
+  font-size: 2rem;
+}
+
+.calculator {
+  border: 2px solid red;
+  width: 600px;
+  height: 600px;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+.calculator .top-display {
+  width: 100%;
+  height: 17%;
+}
+.calculator .bottom-display {
+  display: flex;
+}
+.calculator .bottom-display .number-button {
+  width: 75%;
+  height: 500px;
+  background-color: lightblue;
+}
+.calculator .bottom-display .action-button {
+  width: 25%;
+  height: auto;
+  background-color: red;
+}
+
+/*# sourceMappingURL=App.css.map */

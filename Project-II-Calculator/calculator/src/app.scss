@@ -1,0 +1,39 @@
+//CSS for whole container
+* {
+    p {
+        font-size:2rem;
+    }
+}
+
+.calculator {
+    border:2px solid red;
+    width:600px;
+    height:600px;
+    // height:auto;
+    margin-left:30%;
+    margin-top:5%;
+
+    .top-display {
+        width:100%;
+        height:17%;
+        // height:auto;
+    }
+
+    .bottom-display {
+        display:flex;
+
+        .number-button {
+            width:75%;
+            height:500px;
+            // height:auto;
+            background-color:lightblue;
+        }
+
+        .action-button {
+            width:25%;
+            // height:500px;
+            height:auto;
+            background-color:red;
+        }
+    }
+};
