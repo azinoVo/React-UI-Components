@@ -1,5 +1,9 @@
 import React from 'react';
 import './App.css';
+import HeaderContainer from './components/HeaderComponents/HeaderContainer';
+import CardContainer from './components/CardComponents/CardContainer';
+//Compile components from HeaderContainer and Card Container after those mid-components have their 
+//smaller component parts
 
 const App = () => {
   return (
@@ -17,6 +21,8 @@ const App = () => {
           inside of this file in order to make them work.
         </strong>
       </p>
+      <HeaderContainer />
+      <CardContainer />
     </div>
   );
 };
